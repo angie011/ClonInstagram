@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+.div-header{
+    display:flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.div-logo{
+    width: 43%;
+    padding-left: 70px; 
+}
+
+.div-input{
+    width: 33%;
+    display:flex;
+    align-items: center;
+}
+
+.div-logo-img{
+    width: 30%;
+}
+
+.img-user{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.ul-header{
+    display: flex;
+    width: 33%;
+    align-items: center;
+    
+}
+
+.ul-header li{
+    list-style: none;
+    margin-right: 10%;
+}
+
+
+.div-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.div-logo-perfil{
+    width: 20%;
+    margin-right: 25%;
+}
+.logo-perfil{
+    border-radius: 50%;
+    border: 3px solid #e30052;
+    width: 80%;
+}
+
+.div-text-info{
+    width: 48%;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.div-info{
+    display: flex;   
+}
+.div-info h2{
+    margin-right: 10%;
+}
+
+.div-info input{
+    margin-right: 5%;
+}
+.div-info button{
+    margin-right: 5%;
+}
+.perfil-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:50px 50px 50px;  
+    grid-template-rows: 50px 50px 50px;
+    grid-column-gap: 290px;/*190px;*/
+    grid-row-gap: 280px;/*180px;*/
+    margin-left:20%;
+    margin-top:1px; 
+}
+.search{
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+    height: 30px;
+    width: 215px;
+    background-color: #FAFAFA;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight:lighter;
+    color: #1c2833;/*#25394b;*//*#413113;*/
+}
+
+.input-submit{
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+    margin-left: -20px;
+    height: 30px;
+    width: 100px; /*140px;*/
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0095F6;
+} 
+.button-down{
+    margin-left: -15px;
+    border: 1px solid rgb(221, 220, 220);
+    width: 27px;
+    height: 29px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #0095F6;
+}
+button{
+    margin-left: -15px;
+    border: 1px solid rgb(221, 220, 220);
+    width: 27px;
+    height: 29px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.perfil-info{
+    font-family: 'Nunito', sans-serif;
+    font-weight:lighter;
+    margin-top: 15px;
+}
+p{
+    font-size: 13px;
+}
+.perfil-info p span{
+    font-weight: bold;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.span-info{
+    font-family: 'Nunito', sans-serif;
+    font-weight:lighter;
+}
+.no-href{
+    text-decoration: none;
+    color: rgba(var(--fe0,0,55,107),1);
+}
+.div-lives{
+    margin-top: 40px;
+    
+}
+.ul-div-lives{
+    display:flex;
+    justify-content: space-between;
+    margin-left: -260px;/*-230px;*/
+}
+.li-lives{
+    width: 400%;
+    list-style: none;
+    margin-left: -10px;
+    margin-right: 2px;
+    padding-right: 25px;
+
+
+}
+
+.img-user-lives{
+    width: 80px;/*800%;*/
+    border-radius: 50%;
+    border: 3px solid rgb(221, 220, 220);;
+}
+
+.name-lives{
+    margin-top: 11px;
+    margin-left: 3px; /**/
+}
+.name-lives-ul{
+    display:flex;
+    justify-content: space-between;
+    margin-left: -275px;/*-260px;*/
+    margin-bottom: 45px;
+}
+.name-lives-li{
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;/*14px;*/
+    color: #1c2833;
+}
+.photo{
+    width:200px;
+    height:200px;
+}
+.photo img{
+    height:300px;
+    width: 300px;
+}
+.sections{
+    width: 935px;
+    height: 53px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    border-top: 1px solid rgba(var(--b38,219,219,219),1);
+    margin: auto;
+
+}
+.text-sections{
+    width: 934px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 164px;
+    margin-right: 164px;
+    color: gray;/* #1c2833;*/
+    font-size:12px;
+}
+
+.sections li.text-sections-li{
+    list-style: none;
+}
